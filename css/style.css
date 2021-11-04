@@ -1,0 +1,268 @@
+/* .cspace{
+
+    margin-top: -65px;
+
+} */
+
+.carousel-item{
+    height:100vh;
+    min-height:300px;
+    background-repeat: no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size:cover;
+
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+}
+.carousel-caption p{
+    width: 60%;
+    margin:auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-size: 25px;
+    text-transform:uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link.active .navbar-brand .nav-link  {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+    padding: .2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{
+    color: orangered! important;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+ @media only screen and(max-width: 767px)
+{
+    .navbar-nav.ms-auto{
+        background:rgba(0,0,0,0.5);
+    }
+    nav.bar-toggler{
+        padding: 1px 5px;
+        line-height: 0.3;
+        background:#fff
+    }
+} 
+    
+/* login css */
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/pulikali.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;}
+    
+/* it's the login box */
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/pulikali.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;}
+    
+/* it's the login box */
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    /* background:#fff; */
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline:none;
+    position: relative;
+    color: #fff;
+}
+
+#btn {
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+i {
+    color:white;
+    margin-left: 70px;
+    
+}
+
+/* .social-icons{
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.social-icons img{
+    width: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 #7f7f7f;
+    cursor:pointer
+    border-radius 50%;
+} */
+
+.input-group{
+    top: 180px;
+    position:absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0; 
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.chechbox{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color:#fff;
+    font-size: 12px;
+    /* bottom: 38px; */
+    /* bottom: 68px; */
+    position: absolute;
+    padding-left:5px;
+}
+
+#login{
+    left:50px
+}
+
+#register{
+    left: 450px;
+}
+
+.space{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color:#fff;
+    opacity: 1; 
+  }
+/* card */
+  .card_dest{
+      width: 260px;
+      height: 190px;
+      margin:10px;
+
+
+  }
+
+  .card_dest img{
+      width: 260px;
+      height:150px;
+      
+  }
+
+  .card_dest a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .card_detail{
+    width: 260px;
+    height: 320px;
+    margin:10px;
+  }
+  .card_detail img{
+    width: 260px;
+    height:150px;
+  }
+
+  .card_detail p{
+      text-align: left;
+  }
