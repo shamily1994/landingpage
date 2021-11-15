@@ -72,7 +72,7 @@ function isformvalid() {
 }
 
   form.addEventListener('submit', function (e){
-    alert("entered");
+    // alert("entered");
     e.preventDefault();
     CheckRequired([email, password]);
     //  CheckLenght(username, 3, 15);

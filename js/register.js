@@ -93,7 +93,7 @@ function isformvalid() {
 
 // function val(){
 form.addEventListener('submit', function (e) {
-  alert("entered");
+  // alert("entered");
   e.preventDefault();
 
   CheckRequired([username, email, password, password2]);
