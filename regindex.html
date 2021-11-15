@@ -5,44 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/style1.css"/>
-    <script src="./js/login.js" defer></script>
+    <script src="./js/register.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <form action="./index.html" id="form" class="form1" method = "GET">
-        <h2>Login</h2>
-        <!-- <div class="form-control">
+      <form action="./index.html" id="form" class="form" method = "GET">
+        <h2>Register</h2>
+        <div class="form-control">
           <label for="username">Username</label>
           <input type="text" id="username" placeholder="Enter Username">
           <small>Error message</small>
-        </div> -->
+        </div>
         <div class="form-control">
           <label for="email">Email</label>
           <input type="text" id="email" placeholder="Enter Email">
           <small>Error message</small>
         </div>
-        <!-- <div class="form-control">
+        <div class="form-control">
           <label for="phone">Phone</label>
           <input type="text" id="phone" placeholder="Enter phone" pattern="\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}">
           <small>Error message</small>
-        </div> -->
+        </div>
         <div class="form-control">
           <label for="password">Password</label>
           <input type="password" id="password" placeholder="Enter Password">
           <small>Error message</small>
         </div>
-        <!-- <div class="form-control">
+        <div class="form-control">
           <label for="password2">Confirm Password</label>
           <input type="password" id="password2" placeholder="Enter Password Again">
           <small>Error message</small>
-        </div> -->
-        <button type="submit">Submit</button>
-        <p class="pstyle">Not a member?</p>
-        <a href="./regindex.html" class="gap"> signup now</a>
+        </div>
+        <button type="submit" onclick="val();">Submit</button>
+        <!-- <p class="pstyle1">Already a member?</p> -->
+        <!-- <div class="gap1">
+        Already a member?<a href="./login.html" > login</a></div> -->
+        <p class="pstyle">Already a member?</p>
+        <a href="./login.html" class="gap">     login now</a>
         
       </form>
     </div>
-   
+    <!-- <script src="custom.js"></script> -->
   </body>
 </html>
